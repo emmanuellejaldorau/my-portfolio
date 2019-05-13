@@ -1,33 +1,49 @@
-.App {
-  text-align: center;
+/*--------------------Fonts------------------------*/
+@font-face {
+  font-family: 'Playlist-Script';
+  src:url('./fonts/Playlist-Script.ttf.woff') format('woff'),
+      url('./fonts/Playlist-Script.ttf.svg#Playlist-Script') format('svg'),
+      url('./fonts/Playlist-Script.ttf.eot'),
+      url('./fonts/Playlist-Script.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/*--------------------General------------------------*/
+body {
+  font-family: 'Karla', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
+
+
+/*--------------------Header------------------------*/
+.header {
+  background-image: url(./images/main-image.jpg);
+  background-size: cover;
   min-height: 100vh;
+  filter: contrast(70%);
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.title {
+  margin:0;
+  font-family: 'Playlist-Script';
+  font-size: 8rem;
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.legend {
+  font-size: 1.5rem;
+  font-family: 'Karla', sans-serif; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.arrow {
+  font-size: 2rem; 
 }
