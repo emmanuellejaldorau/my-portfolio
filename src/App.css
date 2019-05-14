@@ -14,13 +14,15 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+/* MOBILE-------------------------------------------------------------------------------- */
 
 
 /*--------------------Header------------------------*/
 .header {
   background-image: url(./images/main-image.jpg);
   background-size: cover;
-  min-height: 100vh;
+  background-position: center;
+  min-height: 80vh;
   filter: contrast(70%);
   display:flex;
   flex-direction: column;
@@ -32,7 +34,7 @@ body {
 .title {
   margin:0;
   font-family: 'Playlist-Script';
-  font-size: 8rem;
+  font-size: 4rem;
   line-height: 1.2;
   display: flex;
   flex-direction: column;
@@ -42,8 +44,25 @@ body {
 .legend {
   font-size: 1.5rem;
   font-family: 'Karla', sans-serif; 
+  font-weight: normal;
 }
 
 .arrow {
   font-size: 2rem; 
+}
+
+
+
+/* DESKTOP---------------------------------------------------------- */
+
+@media (min-width: 450px) {
+  .header {
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 8rem;
+  }
+  
+
 }
