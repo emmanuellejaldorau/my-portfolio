@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import './App.css';
+import '../App.css';
 
 function Header() {
   return (
