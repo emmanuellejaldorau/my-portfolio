@@ -19,6 +19,7 @@ html{
 body {
   font-family: 'Poppins', sans-serif;
   height: 100%;
+  background-color: #f8f8f8;
 }
 
 
@@ -30,7 +31,7 @@ body {
   background-image: url(./images/main-image.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 80vh;
+  min-height: 100vh;
   filter: contrast(70%);
   display:flex;
   flex-direction: column;
@@ -61,31 +62,48 @@ body {
 
 /*--------------------About me------------------------*/
 .presentation{
+  margin-top:10%;
   padding: 8% 0 8%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1f1f1;
+  width:100%;
+}
+
+.img-presentation {
+  margin-bottom: -70px;
+  z-index: 2;
+  border-radius:5px;
 }
 
 .title-presentation {
-  color:#202020;
-  margin-bottom: 8%;
-  font-size: 1.9rem;
-}
-
-.content-presentation {
-  text-align: center;
+  background-color:#202020;
+  height:350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  font-size: 1.6rem;
+  width:100%;
+  z-index: 1;
 }
 
 .text-presentation {
-  background-color:#202020;
-  padding: 5% 8%;
-  color:#f1f1f1; 
-  text-align: center;
-  line-height: 1.5;
-  font-size: 1.2rem;
+  margin-top:-70px;
+  padding: 3%;
+  width: 80%;
+  z-index: 2;
+  background-color: #fff;
+  border-radius:5px;
 }
+
+
+
+/*   
+  line-height: 1.5;
+  font-size: 1.2rem; */
+
 
 
 /* DESKTOP---------------------------------------------------------- */
