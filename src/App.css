@@ -101,12 +101,13 @@ body {
 
 /*--------------------What I work with------------------------*/
 .skills {
-width:100%
+width:100%;
+padding: 0 0 5%;
 }
 
 .skills h2 {
   font-size: 2rem;
-  margin-top: -21px;
+  margin-top: -22px;
   text-align:center;
 }
 
@@ -115,13 +116,35 @@ width:100%
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10% 0 3%;
 }
 
 .skills-tile {
   background-color: #fff;
-  width:50%;
+  width:40%;
+  padding:10% 10% 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
+.skills-main-icon{
+  margin-bottom: 50px;
+  font-size: 2rem;
+  background-color: grey;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-tile > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
 
 
 /* DESKTOP---------------------------------------------------------- */
