@@ -131,9 +131,10 @@ padding: 0 0 5%;
 
 .skills-main-icon{
   margin-bottom: 50px;
-  font-size: 2rem;
-  background-color: grey;
-  border-radius: 50%;
+  font-size: 3rem;
+  color:#e8b923;
+  /* background-color: grey;
+  border-radius: 50%; */
   width: 100px;
   height: 100px;
   display: flex;
@@ -144,6 +145,9 @@ padding: 0 0 5%;
 .skills-tile > p {
   font-size: 1.5rem;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #e8b923;
+  text-underline-position: under;
 }
 
 
