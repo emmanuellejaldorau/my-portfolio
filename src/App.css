@@ -116,7 +116,7 @@ padding: 0 0 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10% 0 3%;
+  margin: 10% 0 10%;
 }
 
 .skills-tile {
@@ -126,7 +126,7 @@ padding: 0 0 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .skills-main-icon{
@@ -160,7 +160,7 @@ padding: 0 0 5%;
 
   /*--------------------About me------------------------*/
   .presentation{
-    padding: 1% 1% 8%;
+    padding: 1% 0 8%;
     flex-direction: row;
     justify-content: center; 
     align-items: center;
@@ -182,6 +182,33 @@ padding: 0 0 5%;
     width:30%;
   }
 
+/*--------------------What I work with------------------------*/
+  .skills {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+  }
   
+  .skills-tiles-list {
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 0;
+  }
+  
+  .skills-tile {
+    width:15%;
+    height: 60%;
+    padding:5% 2% 3%;
+    margin-right: 2%;
+    margin-bottom: 0;
+  }
+  
+  .skills-main-icon{
+    width: 100px;
+    height: 100px;
+  }
+   
 
 }

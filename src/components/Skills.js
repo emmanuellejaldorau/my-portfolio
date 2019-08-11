@@ -10,7 +10,7 @@ function Skills() {
             <SkillsTile icon="code" name="FRONT-END" />
             <SkillsTile icon="cogs" name="BACK-END" />
             <SkillsTile icon="tools" name="CMS" />
-            <SkillsTile icon="clipboard-list" name="PROJECT MANAGEMENT" />
+            <SkillsTile icon="clipboard-list" name="COLLABORATION" />
           </div>
       </section>
   );
