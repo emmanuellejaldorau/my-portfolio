@@ -21,6 +21,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #404040;
   height: 100%;
+  max-width: 100vh;
 }
 
 
@@ -160,13 +161,13 @@ padding: 0 0 5%;
 }
 
 .skills-banner {
-  width:100%;
   /* height: 150px; */
+  width:100%;
   background-color: #fff;
   margin: 0 0 15%;
   padding: 10% 0 10%;
   display: flex;
-  justify-content: space-around;
+  overflow-x: auto;
   align-items: center;
   color: #404040;
   font-size: 3.8rem;
@@ -176,11 +177,13 @@ padding: 0 0 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 5%;
 }
 
 .skills-group p {
   font-size: 1rem;
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 /* DESKTOP---------------------------------------------------------- */

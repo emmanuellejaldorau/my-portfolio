@@ -22,7 +22,7 @@ function SkillsBanner(props) {
           <FontAwesomeIcon icon={['fab', 'bootstrap']} />
           <p>Bootstrap</p>
         </div>
-        {/* <div className="skills-group">
+        <div className="skills-group">
           <FontAwesomeIcon icon={['fab', 'html5']} />
           <p>HTML 5</p>
         </div>
@@ -33,8 +33,10 @@ function SkillsBanner(props) {
         <div className="skills-group">
           <FontAwesomeIcon icon={['fab', 'js']} />
           <p>JS</p>
-        </div> */}
+        </div>
+
       </div>
+      
     </>
   );
 }
