@@ -8,7 +8,7 @@ function Skills() {
   return (
       <section className="skills">
           <h2>WHAT I WORK WITH</h2>
-          <div class="skills-tiles-list">
+          <div className="skills-tiles-list">
             <SkillsTile icon="code" name="FRONT-END" />
             <SkillsBanner />
             <SkillsTile icon="cogs" name="BACK-END" />

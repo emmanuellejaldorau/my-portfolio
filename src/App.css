@@ -19,6 +19,7 @@ html{
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: #404040;
   height: 100%;
 }
 
@@ -77,7 +78,8 @@ body {
 }
 
 .title-presentation {
-  background-color:#000;
+  /* background-color:#000; */
+  background-color: #404040;
   height:350px;
   display: flex;
   flex-direction: column;
@@ -96,7 +98,8 @@ body {
   z-index: 2;
   background-color: #fff;
   border-radius:5px;
-  border: #daa520 1px solid;
+  /* border: #daa520 1px solid; */
+  border: #b7886e 1px solid;
 }
 
 /*--------------------What I work with------------------------*/
@@ -132,9 +135,8 @@ padding: 0 0 5%;
 .skills-main-icon{
   margin-bottom: 50px;
   font-size: 3rem;
-  color: #daa520;
-  /* background-color: grey;
-  border-radius: 50%; */
+  /* color: #daa520; */
+  color: #b7886e;
   width: 100px;
   height: 100px;
   display: flex;
@@ -146,10 +148,40 @@ padding: 0 0 5%;
   font-size: 1.5rem;
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: #daa520;
+  /* text-decoration-color: #daa520; */
+  text-decoration-color: #b7886e;
   text-underline-position: under;
 }
 
+.decoration {
+  margin: 5% 0 -21px;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.skills-banner {
+  width:100%;
+  /* height: 150px; */
+  background-color: #fff;
+  margin: 0 0 15%;
+  padding: 10% 0 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #404040;
+  font-size: 3.8rem;
+}
+
+.skills-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-group p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
 
 /* DESKTOP---------------------------------------------------------- */
 

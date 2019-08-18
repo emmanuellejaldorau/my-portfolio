@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function SkillsTile(props) {
   return (    
-    <div class="skills-tile">
-      <div class="skills-main-icon">
+    <div className="skills-tile">
+      <div className="skills-main-icon">
         <FontAwesomeIcon icon={props.icon}/>
       </div>
       <p>{props.name}</p>
