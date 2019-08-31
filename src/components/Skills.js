@@ -7,6 +7,7 @@ import SkillsBanner from './SkillsBanner';
 function Skills() {
   const [frontBannerDisplayed, displayFrontBanner ] = useState(false);
   const frontBanner = [
+    {icon:"react" , name: "React" },
     {icon:"angular" , name: "Angular" },
     {icon:"bootstrap", name:"Bootstrap"},
     {icon:"html5", name: "HTML 5"},
