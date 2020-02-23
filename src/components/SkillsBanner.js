@@ -8,6 +8,7 @@ function SkillsBanner(props) {
     <>
       <div>
         <FontAwesomeIcon className="decoration" icon="caret-up" />
+        <FontAwesomeIcon className="decoration-desktop" icon="caret-left" />
       </div>    
       <div className="skills-banner">
 

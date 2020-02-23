@@ -131,6 +131,9 @@ padding: 0 0 5%;
   flex-direction: column;
   align-items: center;
   margin-bottom: 4%;
+  border-radius:5px;
+  border: 1px solid #b7886e; 
+
 }
 
 .skills-main-icon{
@@ -158,6 +161,10 @@ padding: 0 0 5%;
   margin: 5% 0 -21px;
   font-size: 4rem;
   color: #fff;
+}
+
+.decoration-desktop {
+  display: none;
 }
 
 .skills-banner {
@@ -241,7 +248,7 @@ padding: 0 0 5%;
     width:15%;
     height: 60%;
     padding:5% 2% 3%;
-    margin-right: 2%;
+    margin-right: 1%;
     margin-bottom: 0;
   }
   
@@ -249,6 +256,37 @@ padding: 0 0 5%;
     width: 100px;
     height: 100px;
   }
+
+  .decoration {
+    display: none; 
+  }
+
+  .decoration-desktop {
+    display:block;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .skills-banner {
+    width:15%;
+    height: 330px;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin:0 1% 0 0;
+    padding:1% 0 0;
+  }
+
+  .skills-group{
+    margin: 0 0 50%;
+    font-size: 3rem;
+  }
+  
+  .skills-group p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
    
 
 }

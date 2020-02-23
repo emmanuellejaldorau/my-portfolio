@@ -53,7 +53,7 @@ function Skills() {
               <SkillsTile icon="clipboard-list" name="COLLABORATION" />
             </div>
             {projectBannerDisplayed && <SkillsBanner iconsBanner= {projectBanner} />}
-          </div>
+          </div> 
       </section>
   );
 }
