@@ -106,7 +106,7 @@ body {
 /*--------------------What I work with------------------------*/
 .skills {
 width:100%;
-padding: 0 0 5%;
+padding: 0;
 }
 
 .skills h2 {
@@ -168,7 +168,6 @@ padding: 0 0 5%;
 }
 
 .skills-banner {
-  /* height: 150px; */
   width:100%;
   background-color: #fff;
   margin: 0 0 15%;
@@ -193,6 +192,55 @@ padding: 0 0 5%;
   margin-bottom: 0;
   white-space: nowrap;
 }
+
+/*--------------------Last projects------------------------*/
+.projects-title {
+  font-size: 2rem;
+  margin: 0 0 -25px;
+  text-align:center;
+}
+
+.projects {
+  width:100%;
+  padding: 20% 0 15%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-project{
+  width: 90%;
+  border: 1px solid #b7886e;
+}
+
+.star-project:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.other-project-group {
+  margin: 5% 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-project {
+  width: 48%;
+  border: 1px solid #404040;
+}
+
+.other-project:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+  
+  
+  
+  
 
 /* DESKTOP---------------------------------------------------------- */
 
