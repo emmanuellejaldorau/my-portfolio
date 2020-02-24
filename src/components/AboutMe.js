@@ -10,7 +10,7 @@ function AboutMe() {
             <h2>ABOUT ME</h2>
           </div>
           <div className="text-presentation">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>I am a Full-stack developer with a background in digital project management and CMS contribution. Detail oriented and fast-learner, I am highly-motivated to reinvest the skills I acquired and expand my knowledge working with an outstanding team. I am looking for a position in NYC starting July 2020.</p>
           </div>
       </section>
   );
