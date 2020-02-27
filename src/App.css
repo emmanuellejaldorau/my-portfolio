@@ -236,6 +236,32 @@ padding: 0;
   display: block;
   padding-bottom: 100%;
 }
+
+/*--------------------Get in touch------------------------*/
+.contact {
+  width:100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+  
+.contact h2 {
+  font-size: 2rem;
+  margin-top: -22px;
+  text-align:center;
+}
+
+.contact > div {
+  width: 68%;
+}
+  
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 5%;
+  
+}
   
 /*--------------------Footer------------------------*/  
 .footer{
