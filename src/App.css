@@ -402,6 +402,23 @@ padding: 0;
     margin-bottom: 5%;
   }
 
+/*--------------------Get in touch------------------------*/
+.contact {
+  margin-bottom: 5%;
+}
+  
+
+.contact > div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0 2%;
+}
+
+.contact-item{
+  width: 26%;
+}
+
 /*--------------------Footer------------------------*/
   .footer p {
     margin: 0 5% 0 0;
