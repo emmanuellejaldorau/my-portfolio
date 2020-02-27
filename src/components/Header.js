@@ -11,7 +11,9 @@ function Header() {
           <p className="legend">web developer</p>
         </h1>        
         
+        <a href="#presentation" className = "icon-presentation">
         <FontAwesomeIcon className="arrow" icon="chevron-down"/>
+        </a>
       </header>
   );
 }
