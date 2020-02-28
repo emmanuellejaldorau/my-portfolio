@@ -5,7 +5,24 @@ import SkillsBanner from './SkillsBanner';
 
 
 function Skills() {
-  const [frontBannerDisplayed, displayFrontBanner ] = useState(false);
+  const [bannerDisplayed, setBannerState ] = useState({
+    frontBannerDisplayed: false,
+    backBannerDisplayed: false,
+    cmsBannerDisplayed: false,
+    projectBannerDisplayed: false
+  });
+
+  const displayBanner = banner => {
+    for (const property in bannerDisplayed) {
+      if(property === banner){
+        bannerDisplayed[banner] = bannerDisplayed[banner] ? false : true;
+      } else {
+        bannerDisplayed[property] =false;
+      }
+    }
+    setBannerState({...bannerDisplayed});
+  };
+  
   const frontBanner = [
     {icon:"react" , name: "React" },
     {icon:"angular" , name: "Angular" },
@@ -14,19 +31,14 @@ function Skills() {
     {icon:"css3-alt", name:"CSS 3"},
     {icon:"js", name:"Javascript"},
   ]
-  const [backBannerDisplayed, displayBackBanner ] = useState(false);
   const backBanner = [
     {icon:"node" , name: "Node.js" },
     {icon:"java", name:"Java"}
   ]
-
-  const [cmsBannerDisplayed, displayCmsBanner ] = useState(false);
   const cmsBanner = [
     {icon: "wordpress" , name: "Wordpress"},
     {icon:"salesforce" , name: "Salesforce"},
   ]
-
-  const [projectBannerDisplayed, displayProjectBanner ] = useState(false);
   const projectBanner = [
     {icon: "git" , name: "Git"},
     {icon:"github" , name: "Github"},
@@ -37,22 +49,22 @@ function Skills() {
       <section className="skills">
           <h2>WHAT I WORK WITH</h2>
           <div className="skills-tiles-list">
-            <div className="skills-tile" onClick={() => displayFrontBanner(frontBannerDisplayed ? false : true)}>
+            <div className="skills-tile" onClick={() => displayBanner("frontBannerDisplayed")}>
               <SkillsTile icon="code" name="FRONT-END" />
             </div>
-            {frontBannerDisplayed && <SkillsBanner iconsBanner= {frontBanner} />}
-            <div className="skills-tile" onClick={() => displayBackBanner(backBannerDisplayed ? false : true)}>
+            {bannerDisplayed.frontBannerDisplayed && <SkillsBanner iconsBanner= {frontBanner} />}
+            <div className="skills-tile" onClick={() => displayBanner("backBannerDisplayed")}>
               <SkillsTile icon="cogs" name="BACK-END" />
             </div>
-            {backBannerDisplayed && <SkillsBanner iconsBanner= {backBanner} />}
-            <div className="skills-tile" onClick={() => displayCmsBanner(cmsBannerDisplayed ? false : true)}>
+            {bannerDisplayed.backBannerDisplayed && <SkillsBanner iconsBanner= {backBanner} />}
+            <div className="skills-tile" onClick={() => displayBanner("cmsBannerDisplayed")}>
               <SkillsTile icon="tools" name="CMS" />
             </div>
-            {cmsBannerDisplayed && <SkillsBanner iconsBanner= {cmsBanner} />}
-            <div className="skills-tile" onClick={() => displayProjectBanner(projectBannerDisplayed ? false : true)}>
+            {bannerDisplayed.cmsBannerDisplayed && <SkillsBanner iconsBanner= {cmsBanner} />}
+            <div className="skills-tile" onClick={() => displayBanner("projectBannerDisplayed")}>
               <SkillsTile icon="clipboard-list" name="COLLABORATION" />
             </div>
-            {projectBannerDisplayed && <SkillsBanner iconsBanner= {projectBanner} />}
+            {bannerDisplayed.projectBannerDisplayed && <SkillsBanner iconsBanner= {projectBanner} />}
           </div> 
       </section>
   );
