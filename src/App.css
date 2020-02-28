@@ -136,7 +136,6 @@ padding: 0;
   margin-bottom: 4%;
   border-radius:5px;
   border: 1px solid #b7886e; 
-
 }
 
 .skills-main-icon{
@@ -212,9 +211,27 @@ padding: 0;
   align-items: center;
 }
 
+.project-overlay {
+  position:absolute;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.star-project h2{
+  color: #b7886e;
+  margin: 1% 0 0 3%;
+  text-decoration: none;
+}
+
 .star-project{
   width: 90%;
   border: 1px solid #b7886e;
+  background-image: url(./images/prism.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .star-project:after {
@@ -233,12 +250,29 @@ padding: 0;
 .other-project {
   width: 48%;
   border: 1px solid #404040;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .other-project:after {
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+
+.other-project h2{
+  color: #fff;
+  margin: 1% 0 0 3%;
+  text-decoration: none;
+}
+
+.iron-sharer{
+  background-image: url(./images/ironshaker.jpg);
+}
+
+.back-to-school {
+  background-image: url(./images/back-to-school.jpg);
 }
 
 /*--------------------Get in touch------------------------*/
@@ -390,6 +424,17 @@ padding: 0;
     justify-content: center;
   }
 
+  .project-overlay {
+    background-color:rgba(255, 255, 255, 0.8);
+    opacity: 0;
+  }
+  
+
+  .project-overlay:hover {
+    display: block;
+    opacity: 1;
+  }
+
   .star-project{
     width: 40%;
     margin-right: 5%;
@@ -404,6 +449,10 @@ padding: 0;
   .other-project {
     width: 95%;
     margin-bottom: 5%;
+  }
+
+  .other-project h2{
+    color: #404040;
   }
 
 /*--------------------Get in touch------------------------*/
