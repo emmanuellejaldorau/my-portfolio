@@ -298,7 +298,6 @@ padding: 0;
 .contact-icon {
   font-size: 1.5rem;
   margin-right: 5%;
-  
 }
   
 /*--------------------Footer------------------------*/  
@@ -458,8 +457,7 @@ padding: 0;
 /*--------------------Get in touch------------------------*/
 .contact {
   margin-bottom: 5%;
-}
-  
+} 
 
 .contact > div {
   width: 90%;
@@ -470,6 +468,12 @@ padding: 0;
 
 .contact-item{
   width: 26%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 2rem;
 }
 
 /*--------------------Footer------------------------*/
