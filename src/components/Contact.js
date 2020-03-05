@@ -22,7 +22,7 @@ function Contact() {
           </div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon={['fab', 'linkedin']} />
-            <a href="https://www.linkedin.com/in/ejaldorau/?locale=en_US" target="_blank" rel="noopener" class="link">
+            <a href="https://www.linkedin.com/in/ejaldorau/?locale=en_US" target="_blank" rel="noopener noreferrer" class="link">
               linkedin.com/in/ejaldorau
             </a>
           </div>
