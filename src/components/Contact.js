@@ -16,11 +16,15 @@ function Contact() {
           </div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon="envelope-square" />
-            e.jaldorau@gmail.com
+            <a href="mailto:e.jaldorau@gmail.com" class="link">
+              e.jaldorau@gmail.com
+            </a>
           </div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon={['fab', 'linkedin']} />
-            www.linkedin.com/in/ejaldorau
+            <a href="https://www.linkedin.com/in/ejaldorau/?locale=en_US" target="_blank" rel="noopener" class="link">
+              linkedin.com/in/ejaldorau
+            </a>
           </div>
         </div>
       </section>
