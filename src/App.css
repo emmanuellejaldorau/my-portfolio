@@ -249,7 +249,7 @@ padding: 0;
 
 .other-project {
   width: 48%;
-  border: 1px solid #404040;
+  border: 1px solid #b7886e;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -262,7 +262,7 @@ padding: 0;
 }
 
 .other-project h2{
-  color: #fff;
+  color: #b7886e;
   margin: 1% 0 0 3%;
   text-decoration: none;
 }
@@ -457,7 +457,7 @@ padding: 0;
   }
 
    .other-project h2{
-    color: #404040;
+    color: #b7886e;
   }
 
   .iron-sharer{
