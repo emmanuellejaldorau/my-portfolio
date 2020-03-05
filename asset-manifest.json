@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7af67238.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.2aa274bc.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.2aa274bc.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.d4d0ac1e.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d4d0ac1e.js.map",
-    "static/js/2.76c29774.chunk.js": "/my-portfolio/static/js/2.76c29774.chunk.js",
-    "static/js/2.76c29774.chunk.js.map": "/my-portfolio/static/js/2.76c29774.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "precache-manifest.dca8a456a0649e49683144d3f4211314.js": "/my-portfolio/precache-manifest.dca8a456a0649e49683144d3f4211314.js",
-    "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.7af67238.chunk.css.map": "/my-portfolio/static/css/main.7af67238.chunk.css.map",
-    "static/js/2.76c29774.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.76c29774.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/my-portfolio/static/media/prism.9601ee7a.jpg"
+    "main.css": "/portfolio/static/css/main.f5b951ed.chunk.css",
+    "main.js": "/portfolio/static/js/main.7368f879.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7368f879.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2e97cd16.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2e97cd16.js.map",
+    "static/js/2.76c29774.chunk.js": "/portfolio/static/js/2.76c29774.chunk.js",
+    "static/js/2.76c29774.chunk.js.map": "/portfolio/static/js/2.76c29774.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.600950b2d29c528c178ab5e2663b09a7.js": "/portfolio/precache-manifest.600950b2d29c528c178ab5e2663b09a7.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.f5b951ed.chunk.css.map": "/portfolio/static/css/main.f5b951ed.chunk.css.map",
+    "static/js/2.76c29774.chunk.js.LICENSE.txt": "/portfolio/static/js/2.76c29774.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/prism.9601ee7a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4d0ac1e.js",
+    "static/js/runtime-main.2e97cd16.js",
     "static/js/2.76c29774.chunk.js",
-    "static/css/main.7af67238.chunk.css",
-    "static/js/main.2aa274bc.chunk.js"
+    "static/css/main.f5b951ed.chunk.css",
+    "static/js/main.7368f879.chunk.js"
   ]
 }
