@@ -8,7 +8,7 @@ function Header() {
         <h1 className="title">
           <span>Emmanuelle</span> 
           <span>Jaldorau</span>
-          <p className="legend">web developer</p>
+          <p className="legend">Full stack developer</p>
         </h1>        
         
         <a href="#presentation" className = "icon-presentation">
