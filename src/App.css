@@ -112,7 +112,7 @@ body {
   background-color: #b7886e;
   padding: 10px;
   border-radius: 3px;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .icon-presentation{
@@ -374,9 +374,6 @@ padding: 0;
     width:30%;
   }
 
-  .cv-button{
-    margin-bottom: 5%;
-  }
 
 /*--------------------What I work with------------------------*/
   .skills {
@@ -428,7 +425,7 @@ padding: 0;
   }
 
   .skills-group{
-    margin: 0 0 100px;
+    margin: 0 0 60px;
     font-size: 3rem;
   }
   
