@@ -111,7 +111,8 @@ body {
   text-decoration:none;
   background-color: #b7886e;
   padding: 10px;
-  border-radius: 3px
+  border-radius: 3px;
+  margin-bottom: 5%;
 }
 
 .icon-presentation{
@@ -371,6 +372,10 @@ padding: 0;
     margin-top:300px;
     margin-left: -50px;
     width:30%;
+  }
+
+  .cv-button{
+    margin-bottom: 5%;
   }
 
 /*--------------------What I work with------------------------*/
