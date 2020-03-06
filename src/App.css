@@ -102,6 +102,18 @@ body {
   border: #b7886e 1px solid;
 }
 
+.text-presentation p {
+  margin-bottom: 10%;
+}
+
+.cv-button{
+  color: #fff;
+  text-decoration:none;
+  background-color: #b7886e;
+  padding: 10px;
+  border-radius: 3px
+}
+
 .icon-presentation{
   color: #fff;
 }
