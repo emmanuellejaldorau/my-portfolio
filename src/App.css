@@ -103,14 +103,14 @@ body {
 }
 
 .text-presentation p {
-  margin-bottom: 10%;
+  margin-bottom: 6%;
 }
 
 .cv-button{
   color: #fff;
   text-decoration:none;
   background-color: #b7886e;
-  padding: 10px;
+  padding: 6px;
   border-radius: 3px;
   margin-bottom: 10%;
 }
@@ -372,6 +372,14 @@ padding: 0;
     margin-top:300px;
     margin-left: -50px;
     width:30%;
+  }
+
+  .text-presentation p {
+    margin-bottom: 10%;
+  }
+  
+  .cv-button{
+    padding: 10px;
   }
 
 
