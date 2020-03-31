@@ -5,7 +5,7 @@ import profile from '../images/profilepic.jpeg';
 function AboutMe() {
   return (
       <section id="presentation">
-          <img src={profile} alt="profile" className="img-presentation"/> 
+          <img src={profile} alt="profile picture" className="img-presentation"/> 
           <div className="title-presentation">
             <h2>ABOUT ME</h2>
           </div>

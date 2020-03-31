@@ -4,7 +4,7 @@ import '../App.css';
 
 function Header() {
   return (
-      <header className="header">
+      <header className="header" aria-label="New York background picture">
         <h1 className="title">
           <span>Emmanuelle</span> 
           <span>Jaldorau</span>
