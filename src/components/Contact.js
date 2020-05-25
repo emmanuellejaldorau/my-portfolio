@@ -12,7 +12,7 @@ function Contact() {
         <div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon="phone-square-alt" />
-            +1 (702) 613-9391
+            +262 6 92 56 83 31
           </div>
           <div className="contact-item">
             <FontAwesomeIcon className="contact-icon" icon="envelope-square" />

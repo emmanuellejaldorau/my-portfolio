@@ -217,8 +217,20 @@ padding: 0;
 
 .projects {
   width:100%;
-  padding: 20% 0 15%;
+  padding: 5% 0 15%;
   background-color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-description{
+  text-align: center;
+  padding: 1% 2% 3%;
+}
+
+.projects-tiles {
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,7 +266,7 @@ padding: 0;
 }
 
 .other-project-group {
-  margin: 5% 0;
+  margin: 3% 0 5%;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -446,7 +458,14 @@ padding: 0;
 
   .projects {
     width:100%;
-    padding: 10% 0 5%;
+    padding: 2% 0 7%;
+  }
+
+  .projects-description{
+    width: 50%;
+  }
+
+  .projects-tiles{
     flex-direction: row;
     justify-content: center;
   }
@@ -464,7 +483,7 @@ padding: 0;
 
   .star-project{
     width: 40%;
-    margin-right: 5%;
+    margin-right: 1%;
   }
 
   .other-project-group {
